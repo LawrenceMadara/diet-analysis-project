@@ -1,0 +1,51 @@
+{
+  "function_execution_time": "2025-10-08 03:43:02",
+  "data_source": "Azurite Blob Storage: http://127.0.0.1:10000/devstoreaccount1/datasets/All_Diets.csv",
+  "total_recipes": 50,
+  "total_diet_types": 6,
+  "diet_types": [
+    "Keto",
+    "Paleo",
+    "Vegan",
+    "Low-Carb",
+    "Mediterranean",
+    "Carnivore"
+  ],
+  "average_macronutrients": {
+    "Carnivore": {
+      "protein_g": 82.99600000000001,
+      "carbs_g": 133.786,
+      "fat_g": 72.014
+    },
+    "Keto": {
+      "protein_g": 77.75571428571428,
+      "carbs_g": 142.14285714285714,
+      "fat_g": 54.83428571428572
+    },
+    "Low-Carb": {
+      "protein_g": 108.51583333333333,
+      "carbs_g": 143.395,
+      "fat_g": 59.09583333333333
+    },
+    "Mediterranean": {
+      "protein_g": 104.98333333333333,
+      "carbs_g": 142.63333333333333,
+      "fat_g": 78.17666666666666
+    },
+    "Paleo": {
+      "protein_g": 110.798,
+      "carbs_g": 102.69300000000001,
+      "fat_g": 91.01599999999999
+    },
+    "Vegan": {
+      "protein_g": 121.71700000000001,
+      "carbs_g": 135.32,
+      "fat_g": 85.261
+    }
+  },
+  "processing_metadata": {
+    "download_time_seconds": 0.008431,
+    "blob_size_bytes": 3488,
+    "rows_processed": 50
+  }
+}
